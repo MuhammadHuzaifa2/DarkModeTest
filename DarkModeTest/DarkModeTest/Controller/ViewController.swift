@@ -16,10 +16,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var myTestTextField: UITextField!
     @IBOutlet weak var myTestSwitchOutlet: UISwitch!
     
+    @IBAction func alertAction(_ sender: Any) {
+        showAlert()
+    }
+    
     @IBAction func myTestSwitch(_ sender: Any) {
+        let appDelegate = UIApplication.shared.windows.first
         if myTestSwitchOutlet.isOn{
-            showAlert()
+            appDelegate?.overrideUserInterfaceStyle = .dark
         }
+        if !myTestSwitchOutlet.isOn{
+            appDelegate?.overrideUserInterfaceStyle = .light
+        }
+        
     }
     
     func showAlert() {
@@ -28,4 +37,5 @@ class ViewController: UIViewController {
         present(alert, animated: true, completion: nil)
     }
 }
+
 

@@ -24,15 +24,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GcZ-QO-F0t">
-                                <rect key="frame" x="184" y="357" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="onTintColor" name="switchColor"/>
-                                <color key="thumbTintColor" name="switchOffColor"/>
-                                <connections>
-                                    <action selector="myTestSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="rZ4-Er-BQB"/>
-                                </connections>
-                            </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LabelColorTest" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GjR-mk-yCu">
                                 <rect key="frame" x="56" y="270" width="302" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -57,6 +48,23 @@
                                     <segue destination="VWz-fZ-fiH" kind="show" id="L1Z-yf-vDt"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k90-2f-ZID">
+                                <rect key="frame" x="191" y="386" width="33" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Alert"/>
+                                <connections>
+                                    <action selector="alertAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QzF-Bh-7Q1"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GcZ-QO-F0t">
+                                <rect key="frame" x="184" y="315" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="onTintColor" name="switchColor"/>
+                                <color key="thumbTintColor" name="switchOffColor"/>
+                                <connections>
+                                    <action selector="myTestSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="rZ4-Er-BQB"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="myBackgroundColor"/>
@@ -170,19 +178,19 @@
         <image name="RideCar" width="336.50698852539062" height="198.21299743652344"/>
         <image name="RideCar2" width="351.64498901367188" height="153.41000366210938"/>
         <namedColor name="myBackgroundColor">
-            <color red="0.73173189163208008" green="0.8535531759262085" blue="0.93488329648971558" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.73199999332427979" green="0.85399997234344482" blue="0.93500000238418579" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="myTextFieldColor">
-            <color red="0.93087255954742432" green="0.71268093585968018" blue="0.67746353149414062" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.9309999942779541" green="0.71299999952316284" blue="0.67699998617172241" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="switchColor">
-            <color red="0.39700335264205933" green="0.8465038537979126" blue="0.21690239012241364" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.39700004458427429" green="0.84700000286102295" blue="0.21699997782707214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="switchOffColor">
-            <color red="0.036221995949745178" green="0.031052131205797195" blue="0.073964469134807587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.035999998450279236" green="0.03099999763071537" blue="0.074000000953674316" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="textFieldBackgroundColor">
-            <color red="0.52551627159118652" green="0.49173849821090698" blue="0.14674846827983856" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.52600002288818359" green="0.49199998378753662" blue="0.1470000147819519" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
